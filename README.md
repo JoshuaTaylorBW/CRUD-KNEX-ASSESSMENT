@@ -1,4 +1,7 @@
-# READ THE README ------ THAT'S WHY IT'S CALLED A "README"
+
+
+# FINISHED URL"
+https://josh-sparks-crud-assess.herokuapp.com/posts
 
 ## OVERVIEW
 
