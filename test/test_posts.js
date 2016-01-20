@@ -62,7 +62,7 @@ describe('Posts CRUD Routes', function() {
         done();
       });
     });
-    xit('should UPDATE a SINGLE post to /posts/:id', function(done) {
+    it('should UPDATE a SINGLE post to /posts/:id', function(done) {
       chai.request(server)
         .get('/posts')
         .end(function (err, res) {
@@ -77,7 +77,7 @@ describe('Posts CRUD Routes', function() {
           });
         })
     });
-    xit('should DELETE a SINGLE post at /posts/:id/delete', function(done) {
+    it('should DELETE a SINGLE post at /posts/:id/delete', function(done) {
       chai.request(server)
         .get('/posts')
         .end(function (err, res) {
